@@ -1,0 +1,21 @@
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+// Variable Overrides 
+// $theme-colors: (
+//   "primary": #1500ce        /*over ride the primary color*/
+// );
+
+ $body-bg: #f4f4f4;          /*overide the background color*/
+
+// .jumbotron {
+//     background-color: #ffffff !important;           /*overide any class, use !important to do change it*/
+//     border-top: 3px solid rgb(219, 219, 219);
+// }
+
+
+
+.navbar-nav{
+    display: inline;        //to make the popup menu aligned to the left
+}
